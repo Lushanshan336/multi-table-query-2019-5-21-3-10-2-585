@@ -1,6 +1,8 @@
 # 1.查询同时存在1课程和2课程的情况
 
-select a.* ,b.score [1课程],c.score [2课程] from student a ,student_course b, student_course c where a.id = b.id and  a.id = c.id and b.courseld= '1' and c.courseld='2'
+select a.* ,b.score [1课程],c.score [2课程] 
+from student a ,student_course b, student_course c 
+where a.id = b.id and  a.id = c.id and b.courseld= '1' and c.courseld='2'
 
 # 2.查询同时存在1课程和2课程的情况
 
